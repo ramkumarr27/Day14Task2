@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+}
+.container {
+    margin-left: 22%;
+    height: 1100px;
+    width: 700px;
+    /* border-top: 10px solid rgb(235, 230, 230); */
+    border-top: 2px solid white;
+    color: rgb(57, 57, 151);
+    background-color: white;
+    padding: 0;
+}
+.photo{
+     border-radius: 50%; 
+     margin-left: 40px;
+     margin-top: 20px;
+      height: 200px;
+     width:max-content;
+    /* margin: 30px 10px; */
+}
+.header {
+    height: 160px;
+    background-color: rgb(224, 238, 238);
+    display: flex;
+    margin: 15px 15px 0px 15px;
+}
+
+.heading {
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
+
+.role {
+    margin-left: 110px;
+    margin-top: 5px;
+    letter-spacing: 2.5px;
+    font-size: 1.5rem;
+}
+
+.bodyy {
+    display: flex;
+}
+
+.left_container {
+    margin-left: 15px;
+    height: 900px;
+    width: 280px;
+    background-color: rgb(224, 238, 238);
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 10px 10px 0px 10px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.sub_title{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 0px 10px 0px 10px;
+    letter-spacing: 1.5px;
+}
+
+.content{
+    margin-left: 15px;
+    padding: 10px 10px 0px 10px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.content_1{
+    margin-left: 25px;
+    padding: 10px 10px 0px 10px;
+    color: #333;
+    margin-bottom: 0px;
+}
